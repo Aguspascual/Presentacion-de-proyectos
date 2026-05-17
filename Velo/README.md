@@ -442,3 +442,23 @@ erDiagram
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+
+## 📱 Interfaz de Usuario (App en Producción)
+
+### Experiencia del Cliente
+Exploración de comercios locales, personalización de productos y seguimiento en vivo del repartidor.
+<p align="center">
+  <img src="./images/vistaDeComercios.jpeg" width="250" />
+  <img src="./images/vistaProductos.jpeg" width="250" />
+  <img src="./images/estadoPedido.jpeg" width="250" />
+</p>
+
+### Gestión del Comercio
+Panel nativo para administrar catálogo, configurar polígonos de entrega y gestionar los pedidos entrantes.
+<p align="center">
+  <img src="./images/gestsionDeProductos.jpeg" width="200" />
+  <img src="./images/gestionDeZonasDeEntrega.jpeg" width="200" />
+  <img src="./images/DetallePedido1.jpeg" width="200" />
+  <img src="./images/DetallePedido2.jpeg" width="200" />
+</p>
