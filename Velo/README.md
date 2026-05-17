@@ -1,7 +1,12 @@
-# 🚀 Arquitectura y Ecosistema de Velo
+## ¿Qué es Velo?
 
-Este documento detalla la arquitectura de software, los flujos críticos de negocio y el modelo de datos que respaldan a Velo. El diseño se centró en la escalabilidad, la baja latencia para eventos en tiempo real y la consistencia transaccional.
+Velo es un ecosistema de delivery en tiempo real diseñado y desarrollado de forma integral para conectar clientes, comercios y repartidores. A través de tres aplicaciones móviles y un backend centralizado, la plataforma resuelve en un mismo sistema el catálogo, los pedidos, los pagos, la logística y la operación comercial.
 
+El proyecto fue pensado para trasladar problemas reales de arquitectura y producto a una solución concreta: gestión de inventario, configuración de polígonos de entrega, sincronización de estados entre múltiples actores y operación concurrente. 
+
+A nivel técnico, Velo combina **FastAPI**, **React Native** y **PostgreSQL** en una arquitectura orientada a la consistencia, la trazabilidad y la capacidad de evolución.
+
+Desarrollando este ecosistema de **forma colaborativa** desde su diseño arquitectónico hasta su despliegue en producción, este proyecto refleja mi perfil como estudiante de Ingeniería en Sistemas con un fuerte foco en backend, diseño de bases de datos y desarrollo Full-Stack.
 ---
 
 ## 1. Arquitectura Desacoplada de Alto Nivel
