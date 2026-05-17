@@ -7,7 +7,8 @@ El proyecto fue pensado para trasladar problemas reales de arquitectura y produc
 A nivel técnico, Velo combina **FastAPI**, **React Native** y **PostgreSQL** en una arquitectura orientada a la consistencia, la trazabilidad y la capacidad de evolución.
 
 Desarrollando este ecosistema de **forma colaborativa** desde su diseño arquitectónico hasta su despliegue en producción, este proyecto refleja mi perfil como estudiante de Ingeniería en Sistemas con un fuerte foco en backend, diseño de bases de datos y desarrollo Full-Stack.
----
+
+
 
 ## 1. Arquitectura Desacoplada de Alto Nivel
 El ecosistema de Velo se apoya en una arquitectura cliente-servidor fuertemente desacoplada. Se diseñó para soportar múltiples interfaces de usuario (clientes, comercios y repartidores) comunicándose con un backend centralizado y optimizado.
