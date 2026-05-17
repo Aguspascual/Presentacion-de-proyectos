@@ -257,10 +257,10 @@ erDiagram
         INTEGER id PK
         STRING nombre
         STRING apellido
-        STRING email UK
+        STRING email "UK"
         STRING telefono
         STRING mp_customer_id
-        STRING google_sub UK
+        STRING google_sub "UK"
         STRING google_email
         STRING google_picture_url
         DATETIME google_linked_at
@@ -284,10 +284,10 @@ erDiagram
 
     comercios {
         INTEGER id PK
-        INTEGER id_usuario FK UK
+        INTEGER id_usuario FK "UK"
         STRING nombre
         TEXT descripcion
-        STRING email UK
+        STRING email "UK"
         STRING telefono
         STRING calle
         STRING numero
@@ -326,7 +326,7 @@ erDiagram
 
     repartidores {
         INTEGER id PK
-        INTEGER id_usuario FK UK
+        INTEGER id_usuario FK "UK"
         INTEGER id_comercio FK
         STRING documento_identidad
         STRING licencia_conducir
@@ -380,7 +380,7 @@ erDiagram
         INTEGER id_direccion_entrega FK
         INTEGER id_promocion FK
         INTEGER id_cupon FK
-        STRING numero_pedido UK
+        STRING numero_pedido "UK"
         STRING estado
         STRING order_type
         STRING codigo_entrega
@@ -435,4 +435,10 @@ erDiagram
     comercios ||--o{ pedidos : "recibe"
     repartidores ||--o{ pedidos : "toma"
     pedidos ||--o{ pagos : "registra"
+
 ```
+**Stack Tecnológico Principal:**
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
