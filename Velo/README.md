@@ -251,7 +251,7 @@ La base de datos relacional (PostgreSQL) está diseñada para soportar una alta 
 * **Escalabilidad de Negocio:** Tablas de Comercios y Repartidores vinculadas de forma unívoca a la tabla central de Usuarios, permitiendo una futura expansión de roles (RBAC) sin duplicar datos personales o credenciales.
 
 
-```
+```mermaid
 erDiagram
     usuarios {
         INTEGER id PK
