@@ -84,7 +84,6 @@ flowchart LR
   linkStyle 4,5,6,7 stroke:#3949AB,stroke-width:2px,stroke-dasharray: 5 5;
   linkStyle 8,9,10,11 stroke:#43A047,stroke-width:2px;
   linkStyle 12,13,14 stroke:#FB8C00,stroke-width:2px;
-
 ```
 
 
