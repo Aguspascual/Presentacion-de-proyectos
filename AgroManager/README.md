@@ -1,4 +1,4 @@
-## 🚜 AgroManager
+## AgroManager
 
 AgroManager es un sistema avanzado de gestión para maquinaria agrícola y operaciones de campo, diseñado para digitalizar la operatividad del agro con una visión integral sobre los procesos críticos del negocio. Su propósito es centralizar el control de stock, la planificación y trazabilidad de labores, el mantenimiento de maquinaria y el seguimiento operativo en tiempo real, transformando flujos manuales y dispersos en una plataforma robusta, auditable y escalable.
 
@@ -8,7 +8,7 @@ La solución está construida sobre un stack moderno y orientado a rendimiento: 
 
 ---
 
-#### 🏗️ Arquitectura General del Sistema
+#### Arquitectura General del Sistema
 
 ```mermaid
 flowchart LR
@@ -59,7 +59,7 @@ flowchart LR
     style DATA fill:#faf7ff,stroke:#d6ccfa,stroke-width:1px
 ```
 
-#### ⚙️ Flujo de Procesamiento Asíncrono
+#### Flujo de Procesamiento Asíncrono
 
 ```mermaid
 flowchart LR
@@ -98,7 +98,7 @@ flowchart LR
     NOTIFY --> CONFIRM
 ```
 
-#### 📊 Modelo de Datos Relacional
+#### Modelo de Datos Relacional
 
 ```mermaid
 erDiagram
@@ -168,7 +168,7 @@ erDiagram
     }
 ```
 
-#### 📸 Capturas del sistema
+#### Capturas del sistema
 
 ##### Dashboard
 
